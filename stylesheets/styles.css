@@ -1,3 +1,131 @@
+/* wrapper */
+.wrapper {
+}
+
+/* main header */
+
+.main-header {
+  height: 67px;
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 4px solid pink;
+  background-color: rgba(26, 24, 24, 1);
+}
+
+header .logo {
+  /* background-image: url('../images/kittylogo.jpg'); */
+  float: left;
+  display: block;
+  /* height: 45px; */
+  width: 150px;
+  background-repeat: no-repeat;
+  padding: 10px 0;
+  font-size: 25px;
+  padding: 20px;
+  color: pink;
+  /* border-radius: 40px; */
+  /* border: 2px solid pink; */
+  margin-left: 8px;
+}
+
+header .main-nav {
+  float: right;
+  display: block;
+  width: 220px;
+  padding: 22px 0;
+  margin-right: 30px;
+}
+
+header ul {
+  width: 220px;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  color: pink;
+}
+
+header li {
+  display: inline-block;
+  margin: 5px;
+}
+
+header .banner {
+  width: 100%;
+  height: auto;
+}
+
+.above-fold {
+  background-image: url('../images/madonna.jpeg');
+  background-repeat: no-repeat;
+  height: 455px;
+  overflow: scroll;
+}
+
+.some-background-image {
+    width: 200px;
+    height: 100px;
+    border: 5px solid pink;
+    border-radius: 10px 30px;
+    margin: 50px;
+    padding: 10px;
+    position: relative;
+    top: 30px;
+    left: 170px;
+    color: whitesmoke;
+}
+
+.below-fold {
+  height: auto;
+  width: 100%;
+  padding: 30px 0;
+  border-top: 4px solid pink;
+  background-color: rgba(26, 24, 24, 1);
+}
+
+.connect-w-me {
+  width: 240px;
+  margin: auto;
+  padding: 0px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.above {
+  display: inline-block;
+  margin: 5px;
+  color: pink;
+}
+
+.footer-main {
+  height: auto;
+  width: 100%;
+  padding: 10px 0;
+  border-top: 2px solid pink;
+  background-color: rgba(26, 24, 24, 1);
+}
+
+.footer-text {
+  width: 200px;
+  margin: auto;
+  padding: 0px;
+  text-align: center;
+  color: pink;
+  font-size: 12px;
+  opacity: .7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 body {
