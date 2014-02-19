@@ -1,3 +1,18 @@
+@font-face {
+  font-family: josefin-slab;
+  src: url(../fonts/JosefinSlab-Regular.ttf);
+}
+
+@font-face {
+  font-family: josefin-slab;
+  src: url(../fonts/JosefinSlab-Bold.ttf);
+  font-weight:bold;
+}
+
+body {
+  margin: none;
+  font-family: josefin-slab;
+}
 /* wrapper */
 .wrapper {
 }
@@ -102,6 +117,7 @@ header .banner {
   padding: 10px 0;
   border-top: 2px solid pink;
   background-color: rgba(26, 24, 24, 1);
+  clear: both;
 }
 
 .footer-text {
