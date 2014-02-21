@@ -2,11 +2,26 @@ var KittyApp = angular.module('KittyApp', ['ngRoute']);
 
 	KittyApp.config(function ($routeProvider) {
 		$routeProvider 
-			.when('/view1', 
+			.when('/home', 
 				{
 					controller: 'MainCtrl',
-					templateUrl: '/app/partials/View1.html'
+					templateUrl: '/app/partials/home.html'
 				})
-			.otherwise({ redirectTo: '/view1'
+			.when('/about', 
+				{
+					controller: 'MainCtrl',
+					templateUrl: '/app/partials/about.html'
+				})
+			.when('/work', 
+				{
+					controller: 'MainCtrl',
+					templateUrl: '/app/partials/work.html'
+				})
+			.when('/contact', 
+				{
+					controller: 'MainCtrl',
+					templateUrl: '/app/partials/contact.html'
+				})
+			.otherwise({ redirectTo: '/home'
 				});
 	})
