@@ -132,6 +132,8 @@ header .banner {
   display: inline-block;
   margin: 5px;
   color: pink;
+  font-size: .6em;
+  width: 200px;
 }
 
 .footer-main {
@@ -194,6 +196,10 @@ header .banner {
 
 #mc_embed_signup .button {
   font-family: josefin-slab;
+  font-size: 1em;
+  margin: 5px 5px 10px 0;
+  height: 26px;
+  line-height: 26px;
 }
 
 #mc_embed_signup .mc-field-group {
