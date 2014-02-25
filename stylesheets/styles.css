@@ -120,7 +120,7 @@ header .banner {
 }
 
 .connect-w-me {
-  width: 240px;
+  width: 360px;
   margin: auto;
   padding: 0px;
   list-style-type: none;
@@ -131,8 +131,8 @@ header .banner {
   display: inline-block;
   margin: 5px;
   color: pink;
-  font-size: .6em;
-  width: 200px;
+  font-size: .9em;
+  width: 350px;
 }
 
 .footer-main {
@@ -150,7 +150,7 @@ header .banner {
   padding: 0px;
   text-align: center;
   color: pink;
-  font-size: 12px;
+  font-size: .9em;
   opacity: .7;
 }
 
@@ -203,4 +203,8 @@ header .banner {
 
 #mc_embed_signup .mc-field-group {
   padding-bottom: 1.5%;
+}
+
+#mc_embed_signup .mc-field-group label {
+  color: black;
 }
