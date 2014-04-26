@@ -49,10 +49,8 @@ a {
 }
 
 header .logo {
-  /* background-image: url('../images/kittylogo.jpg'); */
   float: left;
   display: block;
-  /* height: 45px; */
   width: 150px;
   background-repeat: no-repeat;
   padding: 10px 0;
@@ -60,8 +58,6 @@ header .logo {
   padding: 20px;
   color: pink;
   font-family: josefin-slab;
-  /* border-radius: 40px; */
-  /* border: 2px solid pink; */
   margin-left: 8px;
 }
 
@@ -92,10 +88,14 @@ header .banner {
 }
 
 .above-fold {
-  background-image: url('../images/madonna.jpeg');
+  background-image: url('../images/background.png');
   background-repeat: no-repeat;
   height: 655px;
   overflow: scroll;
+}
+
+.above-fold-homepage {
+  background-image: url('../images/homepage_background.png');
 }
 
 .some-background-image {
@@ -191,6 +191,11 @@ header .banner {
 #mc_embed_signup {
   background:#fff; 
   clear:left; 
+}
+
+#contact_signup {
+  width: 350px;
+  margin: 5px auto;
 }
 
 #mc_embed_signup .button {
