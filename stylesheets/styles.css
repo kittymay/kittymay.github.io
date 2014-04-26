@@ -4,48 +4,46 @@
     border: 0;
 }
 
-@font-face {
-  font-family: josefin-slab;
-  src: url(../fonts/josefin-slab/JosefinSlab-Regular.ttf);
+/*@font-face {
+  font-family: "HelveticaNeue-Light";
+  src: url(../fonts/"HelveticaNeue-Light"/JosefinSlab-Regular.ttf);
 }
 
 @font-face {
-  font-family: josefin-slab;
-  src: url(../fonts/josefin-slab/JosefinSlab-Bold.ttf);
+  font-family: "HelveticaNeue-Light";
+  src: url(../fonts/"HelveticaNeue-Light"/JosefinSlab-Bold.ttf);
   font-weight:bold;
-}
+}*/
 
 html, body {
   font-size: 118%;
   height:100%;
   background: #000;
-  margin: none;
-  font-family: josefin-slab;
+  font-family: "HelveticaNeue-Light";
   line-height: 1.4;
 }
-/* wrapper */
+
 .wrapper {
   margin: 0 auto;
   min-height: 100%;
 }
 
 .clear {
-    clear: both;
+  clear: both;
 }
 
 /* main header */
-
 .main-header {
   height: 67px;
   width: 100%;
   padding: 10px 0;
-  border-bottom: 4px solid pink;
+  border-bottom: 4px solid #D5749F;
   background-color: rgba(26, 24, 24, 1);
 }
 
-a {
+header a {
   text-decoration: none;
-  color: pink;
+  color: #faebd7;
 }
 
 header .logo {
@@ -53,105 +51,105 @@ header .logo {
   display: block;
   width: 150px;
   background-repeat: no-repeat;
-  padding: 10px 0;
-  font-size: 25px;
+  font-size: 1.3em;
   padding: 20px;
-  color: pink;
-  font-family: josefin-slab;
+  color: #faebd7;
   margin-left: 8px;
 }
 
-header .main-nav {
+nav {
+  font-size: .8em;
   float: right;
   display: block;
-  width: 300px;
-  padding: 22px 0;
+  padding: 24px 0;
   margin-right: 30px;
 }
 
-header ul {
-  width: 300px;
-  margin: 0px;
-  padding: 0px;
+nav ul {
   list-style-type: none;
-  color: pink;
+  color: #faebd7;
 }
 
-header li {
+nav li {
   display: inline;
   margin: 5px;
 }
 
-header .banner {
+nav ul ul {
+  display: none;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+.banner {
   width: 100%;
   height: auto;
 }
 
 .above-fold {
-  background-image: url('../images/background.png');
-  background-repeat: no-repeat;
+  background: url('../images/background.png') no-repeat;
   height: 655px;
   overflow: scroll;
 }
 
 .above-fold-homepage {
-  background-image: url('../images/homepage_background.png');
+  background: url('../images/homepage_background.png') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 655px;
+  overflow: scroll;
 }
 
-.some-background-image {
-    width: 200px;
+.titlebox {
+    width: 300px;
     height: 100px;
-    border: 5px solid pink;
-    border-radius: 10px 30px;
-    margin: 50px;
-    padding: 10px;
     position: relative;
-    top: 30px;
-    left: 200px;
-    color: whitesmoke;
+    top: 120px;
+    left: 300px;
+    color: #D5749F;
+    font-size: 1.4em;
 }
 
-.below-fold {
-  height: auto;
-  width: 100%;
+.titlebox h4 {
+  color: #BEAECB;
+}
+
+.contact {
   padding: 30px 0;
-  border-top: 4px solid pink;
-  background-color: rgba(26, 24, 24, 1);
+  border-top: 4px solid #C75789;
 }
 
-.connect-w-me {
+.contact ul {
   width: 360px;
   margin: auto;
-  padding: 0px;
   list-style-type: none;
   text-align: center;
 }
 
-.above {
+.contact li {
   display: inline-block;
   margin: 5px;
-  color: pink;
+  color: #E0A3B6;
   font-size: .9em;
   width: 350px;
 }
 
-.footer-main {
-  height: auto;
-  width: 100%;
+footer {
   padding: 10px 0;
-  border-top: 2px solid pink;
-  background-color: rgba(26, 24, 24, 1);
+  border-top: 2px solid #C75789;
   clear: both;
 }
 
 .footer-text {
   width: 200px;
   margin: auto;
-  padding: 0px;
   text-align: center;
-  color: pink;
+  color: #faebd7;
   font-size: .9em;
-  opacity: .7;
 }
 
 .about, .work {
@@ -189,8 +187,9 @@ header .banner {
 }
 
 #mc_embed_signup {
-  background:#fff; 
-  clear:left; 
+  background:#FAF0FA; 
+  clear:left;
+  border-radius:15px;
 }
 
 #contact_signup {
@@ -199,7 +198,6 @@ header .banner {
 }
 
 #mc_embed_signup .button {
-  font-family: josefin-slab;
   font-size: 1em;
   margin: 5px 5px 10px 0;
   height: 26px;
