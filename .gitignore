@@ -1,0 +1,5 @@
+# Mac filesystem garbage
+*.DS_STORE
+
+# Sass Cache
+.sass-cache/
