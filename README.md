@@ -1,4 +1,4 @@
 kittymay.github.io
 ==================
 
-personal website
+personal website for kitty may
