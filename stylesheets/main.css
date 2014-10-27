@@ -228,9 +228,13 @@ header {
   margin-left: 10px;
   font-size: .9em;
   padding-bottom: 10px; }
+  .upcoming ul ul {
+    color: #d5749f; }
 .upcoming h4 {
   color: #d5749f;
   padding-bottom: 10px; }
+.upcoming .note p {
+  font-style: italic; }
 .upcoming a {
   color: #d5749f;
   text-decoration: none; }

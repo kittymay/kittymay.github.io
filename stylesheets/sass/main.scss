@@ -307,13 +307,19 @@ header {
   ul {
     margin-left: 10px;
     font-size: .9em;  
-        padding-bottom: 10px;
-
+    padding-bottom: 10px;
+    ul {
+      color: $dark-pink;
+    }
   }
   h4 {
     color: $dark-pink;
-        padding-bottom: 10px;
-
+    padding-bottom: 10px;
+  }
+  .note {
+    p {
+      font-style: italic;
+    }
   }
   a {
     color: $dark-pink;
