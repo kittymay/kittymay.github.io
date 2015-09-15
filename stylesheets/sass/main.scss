@@ -31,7 +31,7 @@ html {
     content: " ";
     display: table;
   }
-  &:after { 
+  &:after {
    clear: both;
   }
 }
@@ -120,7 +120,7 @@ header {
   background-color: black;
   &.home {
     background: url('../app/images/homepage_background.png') no-repeat center center;
-    overflow: hidden; 
+    overflow: hidden;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -160,7 +160,7 @@ header {
       height: 130px;
       overflow: hidden;
       font-size: 1.35em;
-      
+
       p {
         font-style: italic;
       }
@@ -303,24 +303,32 @@ header {
     background-color: rgba(243, 234, 241, 0.24);
     margin-top: 20px;
     padding: 15px;
+
+    .comments {
+      color: $dark-pink;
+
+      p {
+        padding-top: 10px;
+        color: $dark-pink;
+      }
+    }
   }
   ul {
     margin-left: 10px;
-    font-size: .9em;  
+    font-size: .9em;
     padding-bottom: 10px;
-    ul {
-      color: $dark-pink;
-    }
   }
   h4 {
     color: $dark-pink;
     padding-bottom: 10px;
   }
+
   .note {
     p {
       font-style: italic;
     }
   }
+
   a {
     color: $dark-pink;
     text-decoration: none;
