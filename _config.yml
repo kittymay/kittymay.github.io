@@ -7,6 +7,6 @@ markdown: kramdown
 collections:
   - events
   - work_types
-  - testimonials
+  - about_sections
 
 gems: [bourbon, neat]
