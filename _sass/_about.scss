@@ -8,22 +8,15 @@
       padding-bottom: 0;
       font-style: italic;
     }
+
     .testimonial-full {
-      background-color: $content-background;
+      @extend .content;
       margin-top: 20px;
       padding: 15px;
-      p {
-        text-indent: 20px;
-      }
+
       p:not(:last-child) {
         padding-bottom: 10px;
       }
-    }
-  }
-
-  &.background {
-    p {
-      text-indent: 20px;
     }
   }
 }

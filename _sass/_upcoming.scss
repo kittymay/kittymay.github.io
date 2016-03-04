@@ -1,42 +1,36 @@
 .upcoming {
-  @extend .work;
+  @extend %page-base;
+}
 
-  p {
-    font-size: .9em;
-  }
+.event {
+  @extend .content;
 
-  p:not(:last-child) {
-    padding-bottom: 10px;
-  }
-
-  .event {
-    background-color: $content-background;
-    margin-top: 20px;
-    padding: 15px;
-
-    .comments {
-      color: $dark-pink;
-
-      p {
-        padding-top: 10px;
-        color: $dark-pink;
-      }
-    }
-  }
-
-  ul {
-    margin-left: 10px;
-    font-size: .9em;
-    padding-bottom: 10px;
-  }
-
-  h4 {
+  h3 {
     color: $dark-pink;
-    padding-bottom: 10px;
   }
 
-  .note p {
+  .second-facilitator {
+    color: $text-purple;
+  }
+
+  .event-section {
+    margin-bottom: 15px;
+  }
+
+  .note {
     font-style: italic;
+  }
+
+  .feedback {
+    color: $dark-pink;
+  }
+
+  .details {
+    color: $text-purple;
+
+    .cost-tiers {
+      margin-left: 15px;
+    }
   }
 
   a {

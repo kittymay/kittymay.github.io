@@ -2,23 +2,49 @@
 layout: page
 title: upcoming
 ---
-{% for event in site.events %}
+{% for event in site.events reversed %}
   <div class="event">
-    <h4>{{ event.title }}</h4>
-    <ul><li>{{ event.second_facilitator }}</li></ul>
-    <p>{{ event.description }}</p>
-
-    <div class="note">
-      {{ event.note }}
+    <h3>{{ event.title }}</h3>
+    <p>{{ event.subtitle }}</p>
+    {% if event.second_facilitator %}
+      <p class="second-facilitator">with {{ event.second_facilitator }}</p>
+    {% endif %}
+    <div class="event-section">
+      <p>{{ event.content }}</p>
     </div>
 
-    <div class="comments">
-      {{ event.comments }}
+    {% if event.notes %}
+    <div class="event-section note">
+      <p>Please note:</p>
+      <ul>
+      {% for note in event.notes %}
+        <li>{{ note }}</li>
+      {% endfor %}
+      </ul>
     </div>
-    <ul>
-      <li>When: {{ event.date }}</li>
+    {% endif %}
+
+    {% if event.previous_feedback %}
+    <div class="event-section feedback">
+      <p>Feedback from previous workshops:</p>
+      <ul>
+        {% for feedback in event.previous_feedback %}
+          <li>"{{ feedback }}"</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+    <ul class="event-section details">
+      <li>When: {{ event.dates }}</li>
       <li>Where: {{ event.location }}</li>
-      <li>Cost: {{ event.cost }}</li>
+      <li>Cost: {{ event.cost_description }}</li>
+        <ul class="cost-tiers">
+        {% for tier in event.cost_tiers %}
+          <li>- {{ tier }}</li>
+        {% endfor %}
+        </ul>
+      <li>{{ event.cost_note }}</li>
       <li>Participate: {{ event.participate }}</li>
     </ul>
   </div>
