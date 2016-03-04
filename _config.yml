@@ -6,3 +6,6 @@ url: "http://kittymay.com"
 markdown: kramdown
 collections:
   - events
+  - work_types
+
+gems: [bourbon, neat]

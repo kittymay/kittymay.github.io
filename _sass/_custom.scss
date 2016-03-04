@@ -4,6 +4,7 @@ $text-purple: #B69DDD;
 $light-pink-background: #FAF0FA;
 $light-pink-text: #FCDEFC;
 $medium-pink: #E0A3B6;
+$content-background: rgba(243, 234, 241, 0.24);
 
 * {
     padding: 0;
@@ -20,8 +21,7 @@ html {
 }
 
 .wrapper {
-  margin: 0 auto;
-  min-height: 100%;
+  @include span-columns(12);
 }
 
 %clearfix {
@@ -37,17 +37,6 @@ html {
   }
 }
 
-.banner {
-  width: 100%;
-  height: auto;
-}
-
-.above-fold-container {
-  min-height: 500px;
-  padding: 0 19%;
-  background-color: black;
-}
-
 %page-base {
   font-size: 1.4em;
   color: $text-purple;
@@ -61,7 +50,7 @@ html {
 
   ul {
     list-style-type: none;
-    
+
     li:not(:last-child) {
       padding-bottom: 5px;
     }
@@ -69,10 +58,6 @@ html {
 
   p {
     color: $off-white;
-  }
-
-  .title-emphasis {
-    font-size: 1.3em;
   }
 
   h2 {
@@ -143,9 +128,7 @@ footer {
   .testimonial-box {
     display: none;
   }
-  .above-fold-container {
-    padding: 0 5%;
-  }
+
   header {
     padding: 0 5%;
     text-align: center;

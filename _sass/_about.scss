@@ -2,7 +2,6 @@
   @extend %page-base;
 
   &.testimonials {
-    @extend .work;
     #testimonial-signature {
       text-align: right;
       font-size: .8em;
@@ -10,7 +9,7 @@
       font-style: italic;
     }
     .testimonial-full {
-      background-color: rgba(243, 234, 241, 0.24);
+      background-color: $content-background;
       margin-top: 20px;
       padding: 15px;
       p {

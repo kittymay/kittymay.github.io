@@ -5,30 +5,34 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 0;
 
   .titlebox {
     margin: 10% 0 0 10%;
     color: $text-purple;
+
     h1 {
       font-size: 5em;
       margin: 0;
       margin-bottom: 5px;
     }
+
     h2 {
       font-size: 2.4em;
       margin: -10px 0;
       font-weight: 300;
       word-spacing: 5px;
     }
+
     .logo-may {
       color: $dark-pink;
       font-weight: 300;
     }
+
     .educator {
       color: $dark-pink;
       margin-left: 20px;
     }
+
     .facilitator {
       margin-left: 110px;
     }
@@ -49,6 +53,7 @@
       text-align: right;
       font-style: normal;
     }
+
     a {
       text-decoration: none;
       color: $off-white;
@@ -56,10 +61,12 @@
         color: $dark-pink;
       }
     }
+
     .testimonial {
       height: 130px;
       width: 350px;
     }
+
     .carousel-container {
       position: relative;
       -webkit-animation: move 15s linear 5s infinite; /* Chrome, Safari, Opera */
