@@ -11,9 +11,9 @@
       </li>
       <li class="dropdown"><a href="/work">Work</a>
         <ul class="dropdown-menu">
-          <li><a href="/work/#adults">For adults</a></li>
-          <li><a href="/work/#youth">For youth</a></li>
-          <li><a href="/work/#professionals">For professionals</a></li>
+          {% for work_type in site.work_types %}
+            <li><a href="/work/#{{ work_type.name }}">For {{ work_type.name }}</a></li>
+          {% endfor %}
         </ul>
       </li>
       <li><a href="/upcoming" id="upcoming">Upcoming</a></li>
