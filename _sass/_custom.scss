@@ -45,7 +45,7 @@ html {
   .content {
     background-color: $content-background;
     padding: 15px;
-    margin: 20px 0;
+    margin-bottom: 20px;
 
     p {
       margin: 10px 0;
@@ -62,8 +62,12 @@ html {
     }
   }
 
-  h2 {
+  h1 {
     color: $text-purple;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
   }
 
   .emphasis {
