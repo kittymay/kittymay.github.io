@@ -1,0 +1,55 @@
+.upcoming {
+  @extend .work;
+
+  p {
+    font-size: .9em;
+  }
+
+  p:not(:last-child) {
+    padding-bottom: 10px;
+  }
+
+  .event {
+    background-color: rgba(243, 234, 241, 0.24);
+    margin-top: 20px;
+    padding: 15px;
+
+    .comments {
+      color: $dark-pink;
+
+      p {
+        padding-top: 10px;
+        color: $dark-pink;
+      }
+    }
+  }
+
+  ul {
+    margin-left: 10px;
+    font-size: .9em;
+    padding-bottom: 10px;
+  }
+
+  h4 {
+    color: $dark-pink;
+    padding-bottom: 10px;
+  }
+
+  .note p {
+    font-style: italic;
+  }
+
+  a {
+    color: $dark-pink;
+    text-decoration: none;
+
+    &:hover,
+    &:active,
+    &:focus {
+      border: none;
+      color: $dark-pink;
+      outline: none;
+      text-decoration: none;
+    }
+  }
+}

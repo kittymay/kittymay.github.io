@@ -1,0 +1,30 @@
+.about {
+  @extend %page-base;
+
+  &.testimonials {
+    @extend .work;
+    #testimonial-signature {
+      text-align: right;
+      font-size: .8em;
+      padding-bottom: 0;
+      font-style: italic;
+    }
+    .testimonial-full {
+      background-color: rgba(243, 234, 241, 0.24);
+      margin-top: 20px;
+      padding: 15px;
+      p {
+        text-indent: 20px;
+      }
+      p:not(:last-child) {
+        padding-bottom: 10px;
+      }
+    }
+  }
+
+  &.background {
+    p {
+      text-indent: 20px;
+    }
+  }
+}
