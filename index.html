@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <section class="home">
     <div class="titlebox">
       <h1>kitty<span class="logo-may">may</span></h1>
@@ -10,18 +9,14 @@ layout: default
     </div>
     <div class="testimonial-box"><a href="#/about/testimonials">
       <div class="carousel-container">
-        <div class="testimonial">
-        <p>"Her experiential approach means that participants reflect in a way that has a real impact"</p>
-        <p id="read-more">» Read more</p>
-      </div>
-      <div class="testimonial">
-        <p>"Kitty spoke of sensitive issues with such ease and confidence that participants felt comfortable to open up, ask questions and share"</p>
-        <p id="read-more"><a href="#/about/testimonials">» Read more</a></p>
-      </div>
-      <div class="testimonial">
-        <p>"Natural and engaging [...] She is, quite simply, a remarkable teacher"</p>
-        <p id="read-more"><a href="#/about/testimonials">» Read more</a></p>
-      </div>
+        {% for section in site.about_sections %}
+          {% for testimonial in section.testimonials %}
+            <div class="testimonial">
+              <p>{{ testimonial.snippet }}</p>
+              <p id="read-more">» Read more</p>
+            </div>
+          {% endfor %}
+        {% endfor %}
     </div>
   </a></div>
   <div class="photo-credit">Photo: Anita Staff</div>
