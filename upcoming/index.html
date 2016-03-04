@@ -43,8 +43,8 @@ title: upcoming
         {% for tier in event.cost_tiers %}
           <li>- {{ tier }}</li>
         {% endfor %}
+          <li>{{ event.cost_note }}</li>
         </ul>
-      <li>{{ event.cost_note }}</li>
       <li>Participate: {{ event.participate }}</li>
     </ul>
   </div>

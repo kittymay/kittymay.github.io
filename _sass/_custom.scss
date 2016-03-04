@@ -53,7 +53,7 @@ h2 {
     margin-bottom: 20px;
 
     p {
-      margin: 10px 0;
+      margin: 15px 0;
 
       &:first-child {
         margin-top: 0;
@@ -115,20 +115,15 @@ footer {
   padding-top: 35px;
 
   a {
-      color: $text-purple;
-
+    color: $text-purple;
     text-decoration: none;
-    &:hover {
-      text-decoration: none;
-      color: $dark-pink;
-    }
-    &:active {
+
+    &:hover,
+    &:active,
+    &:focus {
       border: none;
       color: $dark-pink;
-    }
-    &:focus {
       outline: none;
-      color: $dark-pink;
       text-decoration: none;
     }
   }

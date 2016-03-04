@@ -1,7 +1,7 @@
 .about {
   @extend %page-base;
 
-  &.testimonials {
+  .testimonials {
     #testimonial-signature {
       text-align: right;
       font-size: .8em;
@@ -11,12 +11,6 @@
 
     .testimonial-full {
       @extend .content;
-      margin-top: 20px;
-      padding: 15px;
-
-      p:not(:last-child) {
-        padding-bottom: 10px;
-      }
     }
   }
 }
