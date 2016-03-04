@@ -3,18 +3,16 @@ layout: page
 title: work
 ---
 {% for work_type in site.work_types %}
-  <div class="{{ work_type.name }}">
-    <div class="work-section" id="{{ work_type.name }}">
-      <div class="description">
-        <h2>for {{ work_type.name }}:</h2>
-        <div class="content">
-          {{ work_type.content }}
-        </div>
+  <div class="work-section {{ work_type.name }}" id="{{ work_type.name }}">
+    <h2>for {{ work_type.name }}:</h2>
+    <div class="description">
+      <div class="content">
+        {{ work_type.content }}
       </div>
     </div>
     <div class="topics">
-      <h2>topics include:</h2>
       <div class="content">
+        <h3>topics include:</h3>
         <ul>
           {% for topic in work_type.topics %}
             <li>{{ topic }}</li>

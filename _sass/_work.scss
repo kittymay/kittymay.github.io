@@ -1,5 +1,25 @@
 .work {
   @extend %page-base;
 
-  color: $text-purple;
+  .work-section {
+    @include clearfix;
+  }
+
+  .description {
+    @include span-columns(6);
+
+    @include media($mobile) {
+      @include span-columns(12);
+    }
+  }
+
+  .topics {
+    @include span-columns(6);
+    color: $text-purple;
+
+    h3 {
+      color: $text-purple;
+      font-size: 1.4em;
+    }
+  }
 }

@@ -1,5 +1,5 @@
 header {
-  @extend %clearfix;
+  @include clearfix;
 
   border-bottom: 4px solid $dark-pink;
   background-color: black;
@@ -54,7 +54,7 @@ header {
       padding-left: 30px;
       position: absolute;
       top: 100%;
-      width: 150px;
+      width: 180px;
       z-index: 1000;
 
       li {

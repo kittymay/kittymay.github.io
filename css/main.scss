@@ -9,17 +9,6 @@ $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
-
 @import
   "bourbon",
   "neat",
