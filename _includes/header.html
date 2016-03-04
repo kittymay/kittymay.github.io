@@ -1,0 +1,26 @@
+<header>
+  <div class="logo"><a href="/">Kitty May</a></div>
+  <nav>
+    <ul class="header-tabs">
+      <li class="dropdown"><a href="/about">About<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="/about#approach">Approach</a></li>
+          <li><a href="/about#background">Background</a></li>
+          <li><a href="/about#testimonials">Testimonials</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <button data-toggle="dropdown">Work<span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="/work/#adults">For adults</a></li>
+          <li><a href="/work/#youth">For youth</a></li>
+          <li><a href="/work/#professionals">For professionals</a></li>
+        </ul>
+      </li>
+      <li><a href="/upcoming" id="upcoming">Upcoming</a></li>
+      <li><a href="http://lipstickandteeth.wordpress.com" target="_blank">Blog</a></li>
+      <li><a ng-class="{ active: isActive('/contact') }" href="/contact" id="contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>

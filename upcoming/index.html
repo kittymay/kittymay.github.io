@@ -1,0 +1,25 @@
+---
+layout: page
+title: upcoming
+---
+{% for event in site.events %}
+  <div class="event">
+    <h4>{{ event.title }}</h4>
+    <ul><li>{{ event.second_facilitator }}</li></ul>
+    <p>{{ event.description }}</p>
+
+    <div class="note">
+      {{ event.note }}
+    </div>
+
+    <div class="comments">
+      {{ event.comments }}
+    </div>
+    <ul>
+      <li>When: {{ event.date }}</li>
+      <li>Where: {{ event.location }}</li>
+      <li>Cost: {{ event.cost }}</li>
+      <li>Participate: {{ event.participate }}</li>
+    </ul>
+  </div>
+{% endfor %}
