@@ -12,8 +12,8 @@ layout: default
         {% for section in site.about_sections %}
           {% for testimonial in section.testimonials %}
             <div class="testimonial">
-              <p>{{ testimonial.snippet }}</p>
-              <p id="read-more">» Read more</p>
+              <p>"{{ testimonial.snippet }}"</p>
+              <div id="read-more">» Read more</div>
             </div>
           {% endfor %}
         {% endfor %}

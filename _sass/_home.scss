@@ -43,15 +43,19 @@
     color: $off-white;
     height: 130px;
     overflow: hidden;
-    font-size: 1.35em;
 
-    p {
-      font-style: italic;
-    }
+    .testimonial {
+      height: 130px;
+      width: 350px;
 
-    #read-more {
-      text-align: right;
-      font-style: normal;
+      p {
+        font-style: italic;
+      }
+
+      #read-more {
+        text-align: right;
+        font-style: normal;
+      }
     }
 
     a {
@@ -60,11 +64,6 @@
       &:hover {
         color: $dark-pink;
       }
-    }
-
-    .testimonial {
-      height: 130px;
-      width: 350px;
     }
 
     .carousel-container {
