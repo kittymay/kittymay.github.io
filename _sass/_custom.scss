@@ -37,6 +37,20 @@ html {
   }
 }
 
+h1, h2 {
+  color: $text-purple;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
 %page-base {
   @include span-columns(8);
   @include shift(2);
@@ -62,13 +76,6 @@ html {
     }
   }
 
-  h1 {
-    color: $text-purple;
-    font-size: 2em;
-    font-weight: bold;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-  }
 
   .emphasis {
     font-size: 1.4em;
