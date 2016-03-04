@@ -4,9 +4,9 @@
     <ul>
       <li class="dropdown"><a href="/about">About</a>
         <ul class="dropdown-menu">
-          <li><a href="/about#approach">Approach</a></li>
-          <li><a href="/about#background">Background</a></li>
-          <li><a href="/about#testimonials">Testimonials</a></li>
+          {% for about_section in site.about_sections %}
+            <li><a href="/about/#{{ about_section.name }}">{{ about_section.name }}</a></li>
+          {% endfor %}
         </ul>
       </li>
       <li class="dropdown"><a href="/work">Work</a>
