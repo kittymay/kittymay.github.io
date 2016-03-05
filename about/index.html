@@ -5,11 +5,13 @@ title: about
 {% for about_section in site.about_sections %}
   <div id="{{about_section.name}}" class="{{about_section.name}}">
     <h2>{{about_section.name}}:</h2>
+      {% if about_section.paragraphs %}
       <div class="content">
         {% for paragraph in about_section.paragraphs %}
           <p>{{ paragraph }}</p>
         {% endfor %}
       </div>
+      {% endif %}
 
       {% for testimonial in about_section.testimonials %}
         <div class="testimonial-full">
