@@ -24,7 +24,7 @@ html {
 }
 
 .wrapper {
-  @include span-columns(12);
+  @include clearfix;
 }
 
 h1, h2 {
@@ -109,10 +109,7 @@ h2 {
 }
 
 footer {
-  background-color: black;
   text-align: center;
-  height: 100px;
-  padding-top: 35px;
 
   a {
     color: $text-purple;

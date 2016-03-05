@@ -1,23 +1,23 @@
 ---
 layout: default
 ---
-<section class="home">
-    <div class="titlebox">
-      <h1>kitty<span class="logo-may">may</span></h1>
-      <h2 class="educator">educator</h2>
-      <h2 class="facilitator">facilitator</h2>
-    </div>
-    <div class="testimonial-box"><a href="#/about/testimonials">
-      <div class="carousel-container">
-        {% for section in site.about_sections %}
-          {% for testimonial in section.testimonials %}
-            <div class="testimonial">
-              <p>"{{ testimonial.snippet }}"</p>
-              <div id="read-more">» Read more</div>
-            </div>
-          {% endfor %}
+<div class="home">
+  <div class="titlebox">
+    <h1>kitty<span class="logo-may">may</span></h1>
+    <div class="educator">educator</div>
+    <div class="facilitator">facilitator</div>
+  </div>
+  <div class="testimonial-box"><a href="#/about/testimonials">
+    <div class="carousel-container">
+      {% for section in site.about_sections %}
+        {% for testimonial in section.testimonials %}
+          <div class="testimonial">
+            <p>"{{ testimonial.snippet }}"</p>
+            <div id="read-more">» Read more</div>
+          </div>
         {% endfor %}
+      {% endfor %}
     </div>
   </a></div>
   <div class="photo-credit">Photo: Anita Staff</div>
-</section>
+</div>

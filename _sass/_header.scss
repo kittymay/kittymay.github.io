@@ -1,12 +1,11 @@
 header {
   @include clearfix;
-
   border-bottom: 4px solid $dark-pink;
   background-color: black;
   color: $off-white;
-  padding: 0 10%;
 
   .logo {
+    @include shift(1);
     float: left;
     font-size: 1.7em;
     margin-top: 18px;
@@ -30,7 +29,7 @@ header {
     font-size: 1.2em;
     font-weight: 300;
     float: right;
-    padding: 24px 0;
+    padding: 24px 8.5%;
 
     ul {
       list-style: none;

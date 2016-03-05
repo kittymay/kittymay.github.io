@@ -1,26 +1,20 @@
 .home {
   background: url('../images/homepage_background.png') no-repeat center center;
-  overflow: hidden;
+  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  overflow: hidden;
 
   .titlebox {
-    margin: 10% 0 0 10%;
+    @include shift(1);
+    margin-top: 10%;
     color: $text-purple;
+    font-size: 2.4em;
+    font-weight: 300;
 
     h1 {
-      font-size: 5em;
-      margin: 0;
       margin-bottom: 5px;
-    }
-
-    h2 {
-      font-size: 2.4em;
-      margin: -10px 0;
-      font-weight: 300;
-      word-spacing: 5px;
     }
 
     .logo-may {
