@@ -5,6 +5,7 @@ header {
   color: $off-white;
 
   @include media($mobile) {
+    border-bottom: 2px solid $dark-pink;
     font-size: .9em;
     text-align: center;
   }
