@@ -1,12 +1,15 @@
 .contact {
   @extend %page-base;
 
-  .contact-description {
+  .contact-description, .email-signup {
     @include span-columns(6);
+
+    @include media($mobile) {
+      @include span-columns(12);
+    }
   }
 
   .email-signup {
-    @include span-columns(6);
     color: #E0A3B6;
 
     #mc_embed_signup {
