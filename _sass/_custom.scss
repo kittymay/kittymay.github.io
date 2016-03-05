@@ -1,12 +1,9 @@
 $off-white: rgb(238, 236, 234);
 $dark-pink: #D5749F;
 $text-purple: #B69DDD;
-$light-pink-background: #FAF0FA;
 $light-pink-text: #FCDEFC;
-$medium-pink: #E0A3B6;
 $content-background: rgba(243, 234, 241, 0.24);
 
-$mobile-small: new-breakpoint(max-width 500px 3);
 $mobile: new-breakpoint(max-width 768px);
 
 * {
@@ -96,7 +93,6 @@ a {
     }
   }
 
-
   .emphasis {
     font-size: 1.4em;
     font-weight: bold;
@@ -145,5 +141,4 @@ footer {
       display: block;
     }
   }
-
 }
