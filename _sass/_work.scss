@@ -3,6 +3,10 @@
 
   .work-section {
     @include clearfix;
+
+    span {
+      font-weight: normal;
+    }
   }
 
   .description {

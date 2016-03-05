@@ -56,10 +56,10 @@ a {
 }
 
 %page-base {
-  @include span-columns(10);
-  @include shift(1);
+  @include span-columns(8);
+  @include shift(2);
 
-  font-size: 1.1em;
+  font-size: 1.2em;
 
   .content {
     background-color: $content-background;
@@ -67,7 +67,7 @@ a {
     margin-bottom: 20px;
 
     p {
-      margin: 15px 0;
+      margin: 20px 0;
 
       &:first-child {
         margin-top: 0;
