@@ -6,15 +6,15 @@ title: about
   <div id="{{about_section.name}}" class="{{about_section.name}}">
     <h2>{{about_section.name}}:</h2>
       <div class="content">
-        {% for comment in about_section.comments %}
-          <p>{{ comment }}</p>
+        {% for paragraph in about_section.paragraphs %}
+          <p>{{ paragraph }}</p>
         {% endfor %}
       </div>
 
       {% for testimonial in about_section.testimonials %}
         <div class="testimonial-full">
-          {% for comment in testimonial.comments %}
-            <p>{{ comment }}</p>
+          {% for paragraph in testimonial.paragraphs %}
+            <p>{{ paragraph }}</p>
           {% endfor %}
           <p id="testimonial-signature">- {{ testimonial.by_line }}</p>
         </div>

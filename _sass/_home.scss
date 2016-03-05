@@ -52,14 +52,6 @@
       }
     }
 
-    a {
-      text-decoration: none;
-      color: $off-white;
-      &:hover {
-        color: $dark-pink;
-      }
-    }
-
     .carousel-container {
       position: relative;
       -webkit-animation: move 15s linear 5s infinite; /* Chrome, Safari, Opera */

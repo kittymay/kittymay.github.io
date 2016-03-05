@@ -41,6 +41,20 @@ h2 {
   font-size: 1.6em;
 }
 
+a {
+  text-decoration: none;
+  color: $off-white;
+
+  &:hover,
+  &:active,
+  &:focus {
+    border: none;
+    color: $dark-pink;
+    outline: none;
+    text-decoration: none;
+  }
+}
+
 %page-base {
   @include span-columns(10);
   @include shift(1);
@@ -110,20 +124,6 @@ h2 {
 
 footer {
   text-align: center;
-
-  a {
-    color: $text-purple;
-    text-decoration: none;
-
-    &:hover,
-    &:active,
-    &:focus {
-      border: none;
-      color: $dark-pink;
-      outline: none;
-      text-decoration: none;
-    }
-  }
 }
 
 @media screen and (max-width: 640px) {

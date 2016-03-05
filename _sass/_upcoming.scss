@@ -5,7 +5,7 @@
 .event {
   @extend .content;
 
-  h3 {
+  h3, .feedback {
     color: $dark-pink;
   }
 
@@ -21,29 +21,11 @@
     font-style: italic;
   }
 
-  .feedback {
-    color: $dark-pink;
-  }
-
   .details {
     color: $text-purple;
 
     .cost-tiers {
       margin: 0 0 15px 15px;
-    }
-  }
-
-  a {
-    color: $dark-pink;
-    text-decoration: none;
-
-    &:hover,
-    &:active,
-    &:focus {
-      border: none;
-      color: $dark-pink;
-      outline: none;
-      text-decoration: none;
     }
   }
 }

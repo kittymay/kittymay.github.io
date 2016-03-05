@@ -14,16 +14,9 @@ participate: to register your interest and receive a notification as soon as dat
 notes:
   - All genders welcome.
   - "Discussion of all areas of experience, including trauma, is possible; however, please be aware that this group is not a substitute for therapy. The intention is to create a supportive environment in which participants can share and exchange without fear of judgement. Building trust and accountability will be an important, ongoing group process in which all participants are invited to participate fully."
+description_sections:
+  - There are many ways in which we can feel that our sexuality is not entirely our own. We might feel unsure of what we really desire, stuck repeating a pattern, constrained by gender expectations, disconnected from our bodies, or inhibited by inherited values.
+  - (Re)Claiming Sexuality is an opportunity to find and nurture a sense of sexual agency. Each week will focus on a different area of experience - self-image; pleasure; fantasy; values; relationships; & desire. Exploring these themes, you will have the chance to get to know your sexuality more fully, recognise the things the influence you, and embrace your authentic sexual self.
+  - Each session will include short exercises designed to spark personal reflection, followed by longer periods of facilitated discussion. There is no obligation to disclose more than is comfortable, and in addition to group exchange, there will be time for solo reflection. Some exercises may work with the body but will not be sexual in nature.
+  - Group size - maximum 10 participants.
 ---
-<p>
-There are many ways in which we can feel that our sexuality is not entirely our own. We might feel unsure of what we really desire, stuck repeating a pattern, constrained by gender expectations, disconnected from our bodies, or inhibited by inherited values.
-</p>
-<p>
-(Re)Claiming Sexuality is an opportunity to find and nurture a sense of sexual agency. Each week will focus on a different area of experience: self-image; pleasure; fantasy; values; relationships; & desire. Exploring these themes, you will have the chance to get to know your sexuality more fully, recognise the things the influence you, and embrace your authentic sexual self.
-</p>
-<p>
-Each session will include short exercises designed to spark personal reflection, followed by longer periods of facilitated discussion. There is no obligation to disclose more than is comfortable, and in addition to group exchange, there will be time for solo reflection. Some exercises may work with the body but will not be sexual in nature.
-</p>
-<p>
-Group size: maximum 10 participants.
-</p>

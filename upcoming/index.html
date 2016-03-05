@@ -10,7 +10,9 @@ title: upcoming
       <p class="second-facilitator">with {{ event.second_facilitator }}</p>
     {% endif %}
     <div class="event-section">
-      <p>{{ event.content }}</p>
+      {% for description in event.description_sections %}
+        <p>{{ description }}</p>
+      {% endfor %}
     </div>
 
     {% if event.notes %}

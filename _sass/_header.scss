@@ -11,20 +11,6 @@ header {
     margin-top: 18px;
   }
 
-  a {
-    text-decoration: none;
-    color: $off-white;
-
-    &:hover,
-    &:active,
-    &:focus {
-      border: none;
-      color: $dark-pink;
-      outline: none;
-      text-decoration: none;
-    }
-  }
-
   nav {
     font-size: 1.2em;
     font-weight: 300;

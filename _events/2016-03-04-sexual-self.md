@@ -17,15 +17,8 @@ previous_feedback:
   - a really refreshing space […] that is very physically grounding and that supports taking an appropriate pace that fits you
   - very thoughtful and a warm and open space
   - the workshop is really worth it!
-
-
+description_sections:
+  - '"a very freeing experience" - participant feedback, 2014'
+  - The erotic life, encompassing desire, pleasure, fantasy and experience, is a creative and meaningful current in many people's lives - a source of depth, connection and vitality. Yet we can also feel disconnected from, puzzled by, or ashamed of our sexual selves and don't often have the opportunity to consider, express and shape our own erotic journeys.
+  - This engaging weekend workshop will give participants tools and space to explore their sexual selves, and define their own vision of erotic empowerment. The weekend will be divided into 3 sessions, during which we will connect with our sexual selves as they are today; remember who they were in the past; imagine our brightest erotic futures - and consider the most luscious, fun and self-loving ways of getting there!
 ---
-"a very freeing experience" - participant feedback, 2014
-
-<p>
-The erotic life, encompassing desire, pleasure, fantasy and experience, is a creative and meaningful current in many people's lives: a source of depth, connection and vitality. Yet we can also feel disconnected from, puzzled by, or ashamed of our sexual selves and don't often have the opportunity to consider, express and shape our own erotic journeys.
-</p>
-
-<p>
-This engaging weekend workshop will give participants tools and space to explore their sexual selves, and define their own vision of erotic empowerment. The weekend will be divided into 3 sessions, during which we will connect with our sexual selves as they are today; remember who they were in the past; imagine our brightest erotic futures - and consider the most luscious, fun and self-loving ways of getting there!
-</p>
