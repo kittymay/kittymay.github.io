@@ -38,6 +38,10 @@
     height: 130px;
     overflow: hidden;
 
+    @include media($mobile) {
+      display: none;
+    }
+
     .testimonial {
       height: 130px;
       width: 350px;

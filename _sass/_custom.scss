@@ -125,17 +125,3 @@ a {
 footer {
   text-align: center;
 }
-
-@media screen and (max-width: 640px) {
-  .testimonial-box {
-    display: none;
-  }
-
-  header {
-    padding: 0 5%;
-    text-align: center;
-    .logo, nav {
-      float: none;
-    }
-  }
-}
