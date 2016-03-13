@@ -9,6 +9,7 @@ title: upcoming
     {% if event.second_facilitator %}
       <p class="second-facilitator">with {{ event.second_facilitator }}</p>
     {% endif %}
+    <p>{{ event.feedback }}</p>
     <div class="event-section">
       {% for description in event.description_sections %}
         <p>{{ description }}</p>
@@ -38,8 +39,9 @@ title: upcoming
     {% endif %}
 
     <ul class="event-section details">
-      <li>When: {{ event.dates }}</li>
-      <li>Where: {{ event.location }}</li>
+      <li>When: {{ event.when }}</li>
+      <li>Where: {{ event.where }}</li>
+      <li>Who: {{ event.who }}</li>
       <li>Cost: {{ event.cost_description }}</li>
         <ul class="cost-tiers">
         {% for tier in event.cost_tiers %}
