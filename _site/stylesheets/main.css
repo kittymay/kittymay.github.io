@@ -1,0 +1,293 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+html {
+  font-size: 118%;
+  height: 100%;
+  background-color: black;
+  font-family: "HelveticaNeue-Light";
+  line-height: 1.4; }
+
+.wrapper {
+  margin: 0 auto;
+  min-height: 100%; }
+
+header {
+  *zoom: 1; }
+  header:before, header:after {
+    content: " ";
+    display: table; }
+  header:after {
+    clear: both; }
+
+header {
+  padding: 0 10%;
+  border-bottom: 4px solid #D5749F;
+  background-color: black;
+  color: #eeecea; }
+  header .logo {
+    float: left;
+    font-size: 1.7em;
+    margin-top: 18px; }
+  header a {
+    text-decoration: none;
+    color: #eeecea; }
+    header a:hover {
+      text-decoration: none;
+      color: #D5749F; }
+    header a:active {
+      border: none;
+      color: #D5749F; }
+    header a:focus {
+      outline: none;
+      color: #D5749F;
+      text-decoration: none; }
+    header a.active {
+      color: #D5749F; }
+  header nav {
+    font-size: 1.2em;
+    font-weight: 300;
+    float: right;
+    padding: 24px 0; }
+    header nav li {
+      display: inline;
+      margin: 16px; }
+      header nav li:hover > ul {
+        display: block; }
+    header nav button {
+      background-color: transparent; }
+      header nav button:focus {
+        outline: none; }
+      header nav button.active {
+        color: #D5749F; }
+    header nav ul .dropdown-menu {
+      background: rgba(255, 255, 255, 0.8); }
+      header nav ul .dropdown-menu li {
+        margin: 0; }
+      header nav ul .dropdown-menu a {
+        padding: 10px 20px; }
+        header nav ul .dropdown-menu a:hover {
+          color: #D5749F;
+          background-image: none;
+          background: transparent; }
+
+.banner {
+  width: 100%;
+  height: auto; }
+
+.above-fold-container {
+  min-height: 500px;
+  padding: 0 19%;
+  background-color: black; }
+  .above-fold-container.home {
+    background: url("../app/images/homepage_background.png") no-repeat center center;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0; }
+    .above-fold-container.home .titlebox {
+      margin: 10% 0 0 10%;
+      color: #B69DDD; }
+      .above-fold-container.home .titlebox h1 {
+        font-size: 5em;
+        margin: 0;
+        margin-bottom: 5px; }
+      .above-fold-container.home .titlebox h2 {
+        font-size: 2.4em;
+        margin: -10px 0;
+        font-weight: 300;
+        word-spacing: 5px; }
+      .above-fold-container.home .titlebox .logo-may {
+        color: #D5749F;
+        font-weight: 300; }
+      .above-fold-container.home .titlebox .educator {
+        color: #D5749F;
+        margin-left: 20px; }
+      .above-fold-container.home .titlebox .facilitator {
+        margin-left: 110px; }
+    .above-fold-container.home .testimonial-box {
+      margin: 11% 0 5% 10%;
+      color: #eeecea;
+      height: 130px;
+      overflow: hidden;
+      font-size: 1.35em; }
+      .above-fold-container.home .testimonial-box p {
+        font-style: italic; }
+      .above-fold-container.home .testimonial-box #read-more {
+        text-align: right;
+        font-style: normal; }
+      .above-fold-container.home .testimonial-box a {
+        text-decoration: none;
+        color: #eeecea; }
+        .above-fold-container.home .testimonial-box a:hover {
+          color: #D5749F; }
+      .above-fold-container.home .testimonial-box .testimonial {
+        height: 130px;
+        width: 350px; }
+      .above-fold-container.home .testimonial-box .carousel-container {
+        position: relative;
+        -webkit-animation: move 15s linear 5s infinite;
+        /* Chrome, Safari, Opera */
+        animation: move 15s linear 5s infinite; }
+    .above-fold-container.home .photo-credit {
+      color: #eeecea;
+      text-align: right;
+      padding: 0 10px 10px 0;
+      opacity: .5; }
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes move {
+  0% {
+    bottom: 0; }
+  10% {
+    bottom: 130px; }
+  50% {
+    bottom: 130px; }
+  60% {
+    bottom: 260px; }
+  100% {
+    bottom: 260px; } }
+/* Standard syntax */
+@keyframes move {
+  0% {
+    bottom: 0; }
+  10% {
+    bottom: 130px; }
+  50% {
+    bottom: 130px; }
+  60% {
+    bottom: 260px; }
+  100% {
+    bottom: 260px; } }
+.work, .about, .about.testimonials, .upcoming, .contact {
+  font-size: 1.4em;
+  color: #B69DDD;
+  padding: 2% 0 3% 0; }
+  .work .content, .about .content, .upcoming .content, .contact .content {
+    background-color: rgba(253, 250, 251, 0.21);
+    padding: 15px;
+    margin-top: 15px; }
+  .work ul, .about ul, .about.testimonials ul, .upcoming ul, .contact ul {
+    list-style-type: none; }
+    .work ul li:not(:last-child), .about ul li:not(:last-child), .upcoming ul li:not(:last-child), .contact ul li:not(:last-child) {
+      padding-bottom: 5px; }
+  .work p, .about p, .about.testimonials p, .upcoming p, .contact p {
+    color: #eeecea; }
+  .work .title-emphasis, .about .title-emphasis, .upcoming .title-emphasis, .contact .title-emphasis {
+    font-size: 1.3em; }
+  .work h2, .about h2, .about.testimonials h2, .upcoming h2, .contact h2 {
+    color: #B69DDD;
+    padding: 0; }
+  .work .emphasis, .about .emphasis, .upcoming .emphasis, .contact .emphasis {
+    font-size: 1.4em;
+    font-weight: bold; }
+    .work .emphasis.dark-pink, .about .emphasis.dark-pink, .upcoming .emphasis.dark-pink, .contact .emphasis.dark-pink {
+      color: #D5749F; }
+    .work .emphasis.purple, .about .emphasis.purple, .upcoming .emphasis.purple, .contact .emphasis.purple {
+      color: #B69DDD; }
+    .work .emphasis.light-pink, .about .emphasis.light-pink, .upcoming .emphasis.light-pink, .contact .emphasis.light-pink {
+      color: #FCDEFC; }
+
+.about.testimonials #testimonial-signature {
+  text-align: right;
+  font-size: .8em;
+  padding-bottom: 0;
+  font-style: italic; }
+.about.testimonials .testimonial-full {
+  background-color: rgba(243, 234, 241, 0.24);
+  margin-top: 20px;
+  padding: 15px; }
+  .about.testimonials .testimonial-full p {
+    text-indent: 20px; }
+  .about.testimonials .testimonial-full p:not(:last-child) {
+    padding-bottom: 10px; }
+.about.background p {
+  text-indent: 20px; }
+
+.upcoming p {
+  font-size: .9em; }
+.upcoming p:not(:last-child) {
+  padding-bottom: 10px; }
+.upcoming .event {
+  background-color: rgba(243, 234, 241, 0.24);
+  margin-top: 20px;
+  padding: 15px; }
+  .upcoming .event .comments {
+    color: #D5749F; }
+    .upcoming .event .comments p {
+      padding-top: 10px;
+      color: #D5749F; }
+.upcoming ul {
+  margin-left: 10px;
+  font-size: .9em;
+  padding-bottom: 10px; }
+.upcoming h4 {
+  color: #D5749F;
+  padding-bottom: 10px; }
+.upcoming .note p {
+  font-style: italic; }
+.upcoming a {
+  color: #D5749F;
+  text-decoration: none; }
+  .upcoming a:hover {
+    text-decoration: none;
+    color: #D5749F; }
+  .upcoming a:active {
+    border: none;
+    color: #D5749F; }
+  .upcoming a:focus {
+    outline: none;
+    color: #D5749F;
+    text-decoration: none; }
+
+.contact h2 {
+  padding-left: 15px; }
+.contact p:not(:last-child) {
+  padding-bottom: 15px; }
+.contact .email-signup li:first-child {
+  padding-left: 10px; }
+.contact .email-signup li {
+  color: #E0A3B6; }
+.contact .email-signup #mc_embed_signup .button {
+  margin: 15px 5px 0 0;
+  height: 40px; }
+.contact .email-signup #mc_embed_signup .mc-field-group {
+  padding-bottom: 1.5%; }
+
+footer {
+  background-color: black;
+  text-align: center;
+  height: 100px;
+  padding-top: 35px; }
+  footer a {
+    color: #B69DDD;
+    text-decoration: none; }
+    footer a:hover {
+      text-decoration: none;
+      color: #D5749F; }
+    footer a:active {
+      border: none;
+      color: #D5749F; }
+    footer a:focus {
+      outline: none;
+      color: #D5749F;
+      text-decoration: none; }
+
+@media screen and (max-width: 640px) {
+  .testimonial-box {
+    display: none; }
+
+  .above-fold-container {
+    padding: 0 5%; }
+
+  header {
+    padding: 0 5%;
+    text-align: center; }
+    header .logo, header nav {
+      float: none; } }
+
+/*# sourceMappingURL=main.css.map */
