@@ -1,15 +1,16 @@
 ---
 title:  (Re)Claiming Sexuality
 subtitle: A group process over 6 sessions
-when: Spring 2016, dates tba
-where: Berlin
+when: Wednesdays, 11:30-14:00, April 20th - May 25th
+where: Friedrichshain, Berlin
 who: All genders welcome.
 cost_description: "The fee is for participation in the group, which consists of 6 weekly sessions, with tea and snacks provided. There are four prices available, based on ability to pay:"
 cost_tiers:
   - 120€ if your monthly income is less than 700€
   - 180€ if your monthly income is 700-1000€
   - 240€ if your monthly income is 1000-1500€
-  - 300€ if your monthly income is higher than 1500€ (or a higher fee that you feel reflects your ability to pay)
+  - 300€ if your monthly income is higher than 1500€ 
+  - 400€ if your monthly income is higher than 2000€ (or a higher fee that you feel reflects your ability to pay)
 cost_note: Initially there are 3 spaces available at the 120€ price. If several people pay the higher fees, more spots at the 120€ price will be opened up. Therefore, please note that if you are able to pay more, doing so could help someone on a lower income to participate.
 participate: to register your interest and receive a notification as soon as dates are confirmed, please email <a href="mailto:contactkittymay@gmail.com" target="_blank">contactkittymay@gmail.com</a>
 notes:
