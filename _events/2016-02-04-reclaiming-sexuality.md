@@ -12,7 +12,7 @@ cost_tiers:
   - 300€ if your monthly income is higher than 1500€ 
   - 400€ if your monthly income is higher than 2000€ (or a higher fee that you feel reflects your ability to pay)
 cost_note: Initially there are 3 spaces available at the 120€ price. If several people pay the higher fees, more spots at the 120€ price will be opened up. Therefore, please note that if you are able to pay more, doing so could help someone on a lower income to participate.
-participate: to register your interest and receive a notification as soon as dates are confirmed, please email <a href="mailto:contactkittymay@gmail.com" target="_blank">contactkittymay@gmail.com</a>
+participate: to register, please email <a href="mailto:contactkittymay@gmail.com" target="_blank">contactkittymay@gmail.com</a>. A non-refundable deposit of 1/3rd of your fee is required for registration. The remainder is payable in cash at the first session.
 notes:
   - "Discussion of all areas of experience, including trauma, is possible; however, please be aware that this group is not a substitute for therapy. The intention is to create a supportive environment in which participants can share and exchange without fear of judgement. Building trust and accountability will be an important, ongoing group process in which all participants are invited to participate fully."
 description_sections:
