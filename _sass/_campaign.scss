@@ -8,6 +8,7 @@
   position: absolute;
   top: 20%;
   width: 50%;
+  z-index: 10;
 
   .info {
     padding: 0 20px;
@@ -39,6 +40,19 @@
     div {
       cursor: pointer;
       float: right;
+    }
+  }
+
+  @include media($mobile) {
+    font-size: 1em;
+    opacity: .8;
+    width: 90%;
+    left: 5%;
+    top: 7%;
+
+    .remove-button {
+      font-size: 2.5em;
+      margin-bottom: .6em;
     }
   }
 }
