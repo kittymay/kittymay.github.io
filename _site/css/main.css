@@ -327,3 +327,6 @@ header {
     #campaign .remove-button div {
       cursor: pointer;
       float: right; }
+
+.crowdfunding a {
+  color: #D5749F; }
