@@ -1,9 +1,9 @@
 ---
 title: "Exploring Your Sexual Self: Past, Present & Future"
-when: July, 2016. Dates & times tba
-where: Other nature
+when: Sat. June 4th, 10:30 - 14:00 and 15:30 - 19:30, Sun. June 5th 12 - 16:00 
+where: Toronto, Canada
 who: This workshop is open to women, gender queer, intersex and trans folks.
-cost_description: tba
+cost_description: 140$ - 200$ sliding scale
 second_facilitator: Meg Saxby
 feedback: '"a very freeing experience" - participant feedback, 2014'
 notes:
