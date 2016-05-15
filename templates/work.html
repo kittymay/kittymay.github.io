@@ -1,0 +1,20 @@
+{% extends "page.html" %}
+
+{% block content %}
+{% for work_type in this.children %}
+  <div class="work-section {{ work_type.name }}" id="{{ work_type.name }}">
+    <div class="description">
+      <h2><span>for</span> {{ work_type.name }}:</h2>
+      <div class="content">
+        {{ work_type.description }}
+      </div>
+    </div>
+    <div class="topics">
+      <h2>topics <span>include</span>:</h2>
+      <div class="content">
+        {{ work_type.topics }}
+      </div>
+    </div>
+  </div>
+{% endfor %}
+{% endblock %}
