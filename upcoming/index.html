@@ -41,7 +41,7 @@ title: upcoming
     <ul class="event-section details">
       <li>When: {{ event.when }}</li>
       <li>Where: {{ event.where }}</li>
-      <li>Who: {{ event.who }}</li>
+      {% if event.who %}<li>Who: {{ event.who }}</li>{% endif %}
       {% if event.language %}<li>Language: {{ event.language }}</li>{% endif %}
       <li>Cost: {{ event.cost_description }}</li>
         <ul class="cost-tiers">
@@ -50,7 +50,7 @@ title: upcoming
         {% endfor %}
           <li>{{ event.cost_note }}</li>
         </ul>
-      <li>Participate: {{ event.participate }}</li>
+      {% if event.participate %}<li>Participate: {{ event.participate }}</li>{% endif %}
     </ul>
   </div>
 {% endfor %}
