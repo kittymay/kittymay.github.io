@@ -42,6 +42,7 @@ title: upcoming
       <li>When: {{ event.when }}</li>
       <li>Where: {{ event.where }}</li>
       <li>Who: {{ event.who }}</li>
+      {% if event.language %}<li>Language: {{ event.language }}</li>{% endif %}
       <li>Cost: {{ event.cost_description }}</li>
         <ul class="cost-tiers">
         {% for tier in event.cost_tiers %}
