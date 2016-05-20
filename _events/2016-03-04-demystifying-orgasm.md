@@ -1,7 +1,8 @@
 ---
 title: Demystifying Orgasm
-when: Tuesday, June 21st 18:30 – 21:30
-where: Other Nature, Mehringdamm 79, Berlin 10965
+locations:
+  - when: Tuesday, June 21st 18:30 – 21:30
+    where: Other Nature, Mehringdamm 79, Berlin 10965
 language: English
 cost_description: 25€ (20€ limited income)
 description_sections:

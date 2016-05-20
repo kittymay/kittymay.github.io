@@ -39,8 +39,11 @@ title: upcoming
     {% endif %}
 
     <ul class="event-section details">
-      <li>When: {{ event.when }}</li>
-      <li>Where: {{ event.where }}</li>
+      {% for location in event.locations %}
+        <div class="location-title">{% if location.title %}{{ location.title }}:{% endif %}</div>
+        <li>When: {{ location.when }}</li>
+        <li>Where: {{ location.where }}</li>
+      {% endfor %}
       {% if event.who %}<li>Who: {{ event.who }}</li>{% endif %}
       {% if event.language %}<li>Language: {{ event.language }}</li>{% endif %}
       <li>Cost: {{ event.cost_description }}</li>

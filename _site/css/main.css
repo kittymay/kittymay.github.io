@@ -263,6 +263,8 @@ header {
   color: #D5749F; }
 .event .second-facilitator {
   color: #B69DDD; }
+.event .location-title {
+  color: #eeecea; }
 .event .event-section {
   margin-bottom: 15px; }
 .event .note {

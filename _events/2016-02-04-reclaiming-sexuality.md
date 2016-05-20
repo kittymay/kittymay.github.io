@@ -1,8 +1,9 @@
 ---
 title:  (Re)Claiming Sexuality
 subtitle: A group process over 6 sessions
-when: Summer 2016
-where: Berlin
+locations:
+  - when: Summer 2016
+    where: Berlin
 who: All genders welcome.
 cost_description: "The fee is for participation in the group, which consists of 6 weekly sessions, with tea and snacks provided. There are four prices available, based on ability to pay:"
 cost_tiers:
