@@ -2,7 +2,7 @@
 
 {% block content %}
   {% for event in this.children %}
-    <div class="event">
+    <div id="{{ event.title }}" class="event">
       <h3>{{ event.title }}</h3>
       <p>{{ event.subtitle }}</p>
       {% if event.second_facilitator %}
