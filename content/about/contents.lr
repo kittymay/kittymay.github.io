@@ -3,3 +3,5 @@ _model: about
 title: about
 ---
 body: The page body goes here
+---
+sort_key: 1
