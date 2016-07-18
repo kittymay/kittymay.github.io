@@ -15,7 +15,7 @@
     <nav>
       <ul>
         {% for section in site.query('/') %}
-          <li class="dropdown"><a href="{{ section | url }}" id="{{ section.title }}">{{ section.title }}</a>
+          <li class="dropdown"><a href="{{ section | url }}" id="{{ section.title }}" {% if section.title == 'blog'%}target="_blank"{% endif %}>{{ section.title }}</a>
             <ul class="dropdown-menu">
               {% for sub_section in section.children %}
                 <li><a href="{{ section | url }}#{{ sub_section.title }}">{{ sub_section.title }}</a></li>
@@ -23,7 +23,6 @@
             </ul>
           </li>
         {% endfor %}
-        <li><a href="http://lipstickandteeth.wordpress.com" target="_blank">blog</a></li>
       </ul>
     </nav>
   </header>
