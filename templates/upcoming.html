@@ -28,7 +28,7 @@
       <ul class="event-section details">
         <li>When: {{ event.when }}</li>
         <li>Where: {{ event.where }}</li>
-        <li>Who: {{ event.who }}</li>
+        {% if event.who %}<li>Who: {{ event.who }}</li>{% endif %}
         <li>Cost: {{ event.cost_description }}</li>
           <div class="cost-tiers">
             {{ event.cost_tiers }}
