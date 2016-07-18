@@ -4,4 +4,4 @@ locale = en_GB
 url = http://www.kittymay.com
 
 [servers.ghpages]
-target = ghpages://kittymay/kittymay.github.io?cname=kittymay.com
+target = ghpages+https://kittymay/kittymay.github.io?cname=kittymay.com
