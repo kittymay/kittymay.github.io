@@ -1,0 +1,23 @@
+{% extends "page.html" %}
+
+{% block content %}
+{% for about_section in this.children %}
+  <div id="{{about_section.title}}" class="{{about_section.title}}">
+    <h2>{{about_section.title}}:</h2>
+      {% if about_section.content %}
+        <div class="content">
+          {{ about_section.content }}
+        </div>
+      {% endif %}
+
+      {% if about_section.children %}
+        {% for testimonial in about_section.children %}
+          <div class="testimonial-full">
+            {{ testimonial.content }}
+            <p id="testimonial-signature">- {{ testimonial.byline }}</p>
+          </div>
+        {% endfor %}
+      {% endif %}
+  </div>
+{% endfor %}
+{% endblock %}
