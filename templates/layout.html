@@ -14,23 +14,16 @@
     <div class="logo"><a href="/">Kitty May</a></div>
     <nav>
       <ul>
-        <li class="dropdown"><a href="/about">About</a>
-          <ul class="dropdown-menu">
-            {% for about_section in site.about_sections %}
-              <li><a href="/about/#{{ about_section.name }}">{{ about_section.name }}</a></li>
-            {% endfor %}
-          </ul>
-        </li>
-        <li class="dropdown"><a href="/work">Work</a>
-          <ul class="dropdown-menu">
-            {% for work_type in site.work_types %}
-              <li><a href="/work/#{{ work_type.name }}">For {{ work_type.name }}</a></li>
-            {% endfor %}
-          </ul>
-        </li>
-        <li><a href="/upcoming" id="upcoming">Upcoming</a></li>
-        <li><a href="http://lipstickandteeth.wordpress.com" target="_blank">Blog</a></li>
-        <li><a href="/contact" id="contact">Contact</a></li>
+        {% for section in site.query('/') %}
+          <li class="dropdown"><a href="{{ section | url }}" id="{{ section.title }}">{{ section.title }}</a>
+            <ul class="dropdown-menu">
+              {% for sub_section in section.children %}
+                <li><a href="{{ section | url }}#{{ sub_section.title }}">{{ sub_section.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </li>
+        {% endfor %}
+        <li><a href="http://lipstickandteeth.wordpress.com" target="_blank">blog</a></li>
       </ul>
     </nav>
   </header>

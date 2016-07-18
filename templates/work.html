@@ -2,9 +2,9 @@
 
 {% block content %}
 {% for work_type in this.children %}
-  <div class="work-section {{ work_type.name }}" id="{{ work_type.name }}">
+  <div class="work-section {{ work_type.title }}" id="{{ work_type.title }}">
     <div class="description">
-      <h2><span>for</span> {{ work_type.name }}:</h2>
+      <h2><span>for</span> {{ work_type.title }}:</h2>
       <div class="content">
         {{ work_type.description }}
       </div>

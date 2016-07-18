@@ -2,8 +2,8 @@
 
 {% block content %}
 {% for about_section in this.children %}
-  <div id="{{about_section.name}}" class="{{about_section.name}}">
-    <h2>{{about_section.name}}:</h2>
+  <div id="{{about_section.title}}" class="{{about_section.title}}">
+    <h2>{{about_section.title}}:</h2>
       {% if about_section.content %}
         <div class="content">
           {{ about_section.content }}
