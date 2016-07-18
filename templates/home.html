@@ -9,13 +9,11 @@
   </div>
   <div class="testimonial-box"><a href="#/about/testimonials">
     <div class="carousel-container">
-      {% for section in site.about_sections %}
-        {% for testimonial in section.testimonials %}
-          <div class="testimonial">
-            <p>"{{ testimonial.snippet }}"</p>
-            <div id="read-more">» Read more</div>
-          </div>
-        {% endfor %}
+      {% for testimonial in site.query('/about/testimonials') %}
+        <div class="testimonial">
+          <p>"{{ testimonial.snippet }}"</p>
+          <div id="read-more">» Read more</div>
+        </div>
       {% endfor %}
     </div>
   </a></div>
